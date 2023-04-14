@@ -4,11 +4,15 @@
 
 //using DesignPatterns.PatternsCriacionais.AbstractFactory;
 
-using DesignPatterns.PatternsCriacionais.Singleton;
+//using DesignPatterns.PatternsCriacionais.Singleton;
+
+
+using DesignPatterns.PatternsCriacionais.Builder;
 
 Console.WriteLine("\n Design Patterns \n");
 
 Client client = new Client();
 //client.ExecutarCriacaoProduto();
 //client.ConsultarRotinaAluno();
-client.ConsumirDB();
+//client.ConsumirDB();
+client.ConsumirDadosStudio();
