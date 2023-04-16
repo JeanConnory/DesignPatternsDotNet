@@ -10,7 +10,9 @@
 
 //using DesignPatterns.PatternsCriacionais.Prototype;
 
-using DesignPatterns.PatternsEstruturais.Adapter;
+//using DesignPatterns.PatternsEstruturais.Adapter;
+
+using DesignPatterns.PatternsEstruturais.Flyweight;
 
 Console.WriteLine("\n Design Patterns \n");
 
@@ -24,5 +26,8 @@ Console.WriteLine("\n Design Patterns \n");
 
 // Estruturais
 
-CloudComputing cloud = new CloudComputing();
-cloud.ProcessarContas("setembro");
+//CloudComputing cloud = new CloudComputing();
+//cloud.ProcessarContas("setembro");
+
+Client client = new Client();
+client.ConsumirFlyweights();
