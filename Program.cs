@@ -8,13 +8,21 @@
 
 //using DesignPatterns.PatternsCriacionais.Builder;
 
-using DesignPatterns.PatternsCriacionais.Prototype;
+//using DesignPatterns.PatternsCriacionais.Prototype;
+
+using DesignPatterns.PatternsEstruturais.Adapter;
 
 Console.WriteLine("\n Design Patterns \n");
 
-Client client = new Client();
+//Client client = new Client();
 //client.ExecutarCriacaoProduto();
 //client.ConsultarRotinaAluno();
 //client.ConsumirDB();
 //client.ConsumirDadosStudio();
-client.Consumir();
+///client.Consumir();
+///
+
+// Estruturais
+
+CloudComputing cloud = new CloudComputing();
+cloud.ProcessarContas("setembro");
