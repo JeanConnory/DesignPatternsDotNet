@@ -11,7 +11,8 @@
 //using DesignPatterns.PatternsEstruturais.Bridge.Implementacao;
 //using DesignPatterns.PatternsEstruturais.Composite;
 //using DesignPatterns.PatternsEstruturais.Decorator;
-using DesignPatterns.PatternsEstruturais.Facade;
+//using DesignPatterns.PatternsEstruturais.Facade;
+using DesignPatterns.PatternsEstruturais.Proxy;
 
 Console.WriteLine("\n Design Patterns \n");
 
@@ -58,9 +59,9 @@ Console.WriteLine("\n Design Patterns \n");
 
 //}
 
-FacadeManager facade = new FacadeManager();
-facade.ExecutarComplexidade();
+//FacadeManager facade = new FacadeManager();
+//facade.ExecutarComplexidade();
 
 
-//Client client = new Client();
-//client.ConsumirServicos();
+Client client = new Client();
+client.TentarConexaoClientVpn();
