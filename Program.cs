@@ -12,7 +12,7 @@
 //using DesignPatterns.PatternsEstruturais.Composite;
 //using DesignPatterns.PatternsEstruturais.Decorator;
 //using DesignPatterns.PatternsEstruturais.Facade;
-using DesignPatterns.PatternsEstruturais.Proxy;
+//using DesignPatterns.PatternsEstruturais.Proxy;
 
 Console.WriteLine("\n Design Patterns \n");
 
@@ -21,10 +21,10 @@ Console.WriteLine("\n Design Patterns \n");
 //client.ConsultarRotinaAluno();
 //client.ConsumirDB();
 //client.ConsumirDadosStudio();
-///client.Consumir();
-///
+//client.Consumir();
+//
 
-// Estruturais
+ #region Estruturais
 
 //CloudComputing cloud = new CloudComputing();
 //cloud.ProcessarContas("setembro");
@@ -62,6 +62,7 @@ Console.WriteLine("\n Design Patterns \n");
 //FacadeManager facade = new FacadeManager();
 //facade.ExecutarComplexidade();
 
+//Client client = new Client();
+//client.TentarConexaoClientVpn();
 
-Client client = new Client();
-client.TentarConexaoClientVpn();
+ #endregion
