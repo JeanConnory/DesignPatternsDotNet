@@ -14,7 +14,11 @@
 //using DesignPatterns.PatternsEstruturais.Facade;
 //using DesignPatterns.PatternsEstruturais.Proxy;
 
+using DesignPatterns.PatternsComportamentais.TemplateMethod;
+
 Console.WriteLine("\n Design Patterns \n");
+
+#region Criacionais
 
 //Client client = new Client();
 //client.ExecutarCriacaoProduto();
@@ -22,9 +26,10 @@ Console.WriteLine("\n Design Patterns \n");
 //client.ConsumirDB();
 //client.ConsumirDadosStudio();
 //client.Consumir();
-//
 
- #region Estruturais
+#endregion
+
+#region Estruturais
 
 //CloudComputing cloud = new CloudComputing();
 //cloud.ProcessarContas("setembro");
@@ -65,4 +70,7 @@ Console.WriteLine("\n Design Patterns \n");
 //Client client = new Client();
 //client.TentarConexaoClientVpn();
 
- #endregion
+#endregion
+
+Client client = new Client();
+client.ConsumirEndpointJSON();
