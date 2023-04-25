@@ -14,6 +14,7 @@
 //using DesignPatterns.PatternsEstruturais.Facade;
 //using DesignPatterns.PatternsEstruturais.Proxy;
 
+using DesignPatterns.PatternsComportamentais.Interpreter.Jumanji;
 using DesignPatterns.PatternsComportamentais.TemplateMethod;
 
 Console.WriteLine("\n Design Patterns \n");
@@ -72,5 +73,8 @@ Console.WriteLine("\n Design Patterns \n");
 
 #endregion
 
-Client client = new Client();
-client.ConsumirEndpointJSON();
+//Client client = new Client();
+//client.ConsumirEndpointJSON();
+
+ApresentaPopup apresentaPopup = new ApresentaPopup();
+apresentaPopup.ApresentarHabilidadesPopup();
