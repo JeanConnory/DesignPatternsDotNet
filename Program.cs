@@ -17,6 +17,7 @@
 using DesignPatterns.PatternsComportamentais.Interpreter.Jumanji;
 using DesignPatterns.PatternsComportamentais.Observer;
 using DesignPatterns.PatternsComportamentais.TemplateMethod;
+using DesignPatterns.PatternsComportamentais.Visitor;
 
 Console.WriteLine("\n Design Patterns \n");
 
@@ -80,5 +81,8 @@ Console.WriteLine("\n Design Patterns \n");
 //ApresentaPopup apresentaPopup = new ApresentaPopup();
 //apresentaPopup.ApresentarHabilidadesPopup();
 
-SendEmail sendEmail = new SendEmail();
-sendEmail.EnviarEmail();
+//SendEmail sendEmail = new SendEmail();
+//sendEmail.EnviarEmail();
+
+Fiscal fiscal = new Fiscal();
+fiscal.CalcularImpostos();
