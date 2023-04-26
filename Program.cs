@@ -14,10 +14,11 @@
 //using DesignPatterns.PatternsEstruturais.Facade;
 //using DesignPatterns.PatternsEstruturais.Proxy;
 
-using DesignPatterns.PatternsComportamentais.Interpreter.Jumanji;
-using DesignPatterns.PatternsComportamentais.Observer;
-using DesignPatterns.PatternsComportamentais.TemplateMethod;
-using DesignPatterns.PatternsComportamentais.Visitor;
+using DesignPatterns.PatternsComportamentais.Command;
+//using DesignPatterns.PatternsComportamentais.Interpreter.Jumanji;
+//using DesignPatterns.PatternsComportamentais.Observer;
+//using DesignPatterns.PatternsComportamentais.TemplateMethod;
+//using DesignPatterns.PatternsComportamentais.Visitor;
 
 Console.WriteLine("\n Design Patterns \n");
 
@@ -84,5 +85,8 @@ Console.WriteLine("\n Design Patterns \n");
 //SendEmail sendEmail = new SendEmail();
 //sendEmail.EnviarEmail();
 
-Fiscal fiscal = new Fiscal();
-fiscal.CalcularImpostos();
+//Fiscal fiscal = new Fiscal();
+//fiscal.CalcularImpostos();
+
+Client client = new Client();
+client.FalarComandos();
