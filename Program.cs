@@ -1,18 +1,22 @@
-﻿//using DesignPatterns.PatternsCriacionais.FactoryMethod;
+﻿#region UsingCriacionais
 //using DesignPatterns.PatternsCriacionais.AbstractFactory;
-//using DesignPatterns.PatternsCriacionais.Singleton;
 //using DesignPatterns.PatternsCriacionais.Builder;
+//using DesignPatterns.PatternsCriacionais.FactoryMethod;
 //using DesignPatterns.PatternsCriacionais.Prototype;
-//using DesignPatterns.PatternsEstruturais.Adapter;
-//using DesignPatterns.PatternsEstruturais.Flyweight;
+//using DesignPatterns.PatternsCriacionais.Singleton;
+#endregion
 
+#region Estruturais
+//using DesignPatterns.PatternsEstruturais.Adapter;
 //using DesignPatterns.PatternsEstruturais.Bridge;
 //using DesignPatterns.PatternsEstruturais.Bridge.Abstracao;
 //using DesignPatterns.PatternsEstruturais.Bridge.Implementacao;
 //using DesignPatterns.PatternsEstruturais.Composite;
 //using DesignPatterns.PatternsEstruturais.Decorator;
 //using DesignPatterns.PatternsEstruturais.Facade;
+//using DesignPatterns.PatternsEstruturais.Flyweight;
 //using DesignPatterns.PatternsEstruturais.Proxy;
+#endregion
 
 using DesignPatterns.PatternsComportamentais.Command;
 //using DesignPatterns.PatternsComportamentais.Interpreter.Jumanji;
@@ -76,6 +80,8 @@ Console.WriteLine("\n Design Patterns \n");
 
 #endregion
 
+#region Comportamentais
+
 //Client client = new Client();
 //client.ConsumirEndpointJSON();
 
@@ -90,3 +96,5 @@ Console.WriteLine("\n Design Patterns \n");
 
 Client client = new Client();
 client.FalarComandos();
+
+#endregion
