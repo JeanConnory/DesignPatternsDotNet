@@ -25,10 +25,10 @@
 //using DesignPatterns.PatternsComportamentais.Observer;
 //using DesignPatterns.PatternsComportamentais.TemplateMethod;
 //using DesignPatterns.PatternsComportamentais.Visitor;
-
 //using DesignPatterns.PatternsComportamentais.Iterator;
 //using DesignPatterns.PatternsComportamentais.Mediator;
-using DesignPatterns.PatternsComportamentais.Memento;
+//using DesignPatterns.PatternsComportamentais.Memento;
+using DesignPatterns.PatternsComportamentais.State;
 
 Console.WriteLine("\n Design Patterns \n");
 
@@ -115,7 +115,10 @@ Console.WriteLine("\n Design Patterns \n");
 //Chat chat = new Chat();
 //chat.Conversar();
 
-VideoCassete videoCassete = new VideoCassete();
-videoCassete.ExecutarAcaoVideo();
+//VideoCassete videoCassete = new VideoCassete();
+//videoCassete.ExecutarAcaoVideo();
+
+Client client = new Client();
+client.ExecutarContext();
 
 #endregion
