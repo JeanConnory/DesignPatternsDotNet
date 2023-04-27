@@ -27,7 +27,8 @@
 //using DesignPatterns.PatternsComportamentais.Visitor;
 
 //using DesignPatterns.PatternsComportamentais.Iterator;
-using DesignPatterns.PatternsComportamentais.Mediator;
+//using DesignPatterns.PatternsComportamentais.Mediator;
+using DesignPatterns.PatternsComportamentais.Memento;
 
 Console.WriteLine("\n Design Patterns \n");
 
@@ -111,7 +112,10 @@ Console.WriteLine("\n Design Patterns \n");
 //Client client = new Client();
 //client.ConsumirEstruturaDados();
 
-Chat chat = new Chat();
-chat.Conversar();
+//Chat chat = new Chat();
+//chat.Conversar();
+
+VideoCassete videoCassete = new VideoCassete();
+videoCassete.ExecutarAcaoVideo();
 
 #endregion

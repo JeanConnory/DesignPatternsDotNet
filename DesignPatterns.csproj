@@ -15,7 +15,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="PatternsComportamentais\Memento\" />
     <Folder Include="PatternsComportamentais\State\" />
   </ItemGroup>
 
