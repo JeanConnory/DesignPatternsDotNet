@@ -18,6 +18,7 @@
 //using DesignPatterns.PatternsEstruturais.Proxy;
 #endregion
 
+using DesignPatterns.PatternsComportamentais.ChainOfResponsability;
 using DesignPatterns.PatternsComportamentais.Command;
 using DesignPatterns.PatternsComportamentais.Strategy;
 //using DesignPatterns.PatternsComportamentais.Interpreter.Jumanji;
@@ -98,7 +99,10 @@ Console.WriteLine("\n Design Patterns \n");
 //Client client = new Client();
 //client.FalarComandos();
 
-RotinaTaxaServicos rotinaTaxaServicos = new RotinaTaxaServicos();
-rotinaTaxaServicos.ExecutarRotina();
+//RotinaTaxaServicos rotinaTaxaServicos = new RotinaTaxaServicos();
+//rotinaTaxaServicos.ExecutarRotina();
+
+Sender sender = new Sender();
+sender.RealizarCheckout();
 
 #endregion
