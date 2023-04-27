@@ -14,4 +14,9 @@
     <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="PatternsComportamentais\Memento\" />
+    <Folder Include="PatternsComportamentais\State\" />
+  </ItemGroup>
+
 </Project>

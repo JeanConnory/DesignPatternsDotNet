@@ -26,7 +26,8 @@
 //using DesignPatterns.PatternsComportamentais.TemplateMethod;
 //using DesignPatterns.PatternsComportamentais.Visitor;
 
-using DesignPatterns.PatternsComportamentais.Iterator;
+//using DesignPatterns.PatternsComportamentais.Iterator;
+using DesignPatterns.PatternsComportamentais.Mediator;
 
 Console.WriteLine("\n Design Patterns \n");
 
@@ -107,7 +108,10 @@ Console.WriteLine("\n Design Patterns \n");
 //Sender sender = new Sender();
 //sender.RealizarCheckout();
 
-Client client = new Client();
-client.ConsumirEstruturaDados();
+//Client client = new Client();
+//client.ConsumirEstruturaDados();
+
+Chat chat = new Chat();
+chat.Conversar();
 
 #endregion
