@@ -4,9 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace DesignPatterns.PatternsComportamentais.Strategy
+namespace DesignPatterns.PatternsComportamentais.Strategy.Interfaces
 {
-	internal class Class1
+	public interface IServico
 	{
+		void CalcularServico();
 	}
 }

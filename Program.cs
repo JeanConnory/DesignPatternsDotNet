@@ -19,6 +19,7 @@
 #endregion
 
 using DesignPatterns.PatternsComportamentais.Command;
+using DesignPatterns.PatternsComportamentais.Strategy;
 //using DesignPatterns.PatternsComportamentais.Interpreter.Jumanji;
 //using DesignPatterns.PatternsComportamentais.Observer;
 //using DesignPatterns.PatternsComportamentais.TemplateMethod;
@@ -94,7 +95,10 @@ Console.WriteLine("\n Design Patterns \n");
 //Fiscal fiscal = new Fiscal();
 //fiscal.CalcularImpostos();
 
-Client client = new Client();
-client.FalarComandos();
+//Client client = new Client();
+//client.FalarComandos();
+
+RotinaTaxaServicos rotinaTaxaServicos = new RotinaTaxaServicos();
+rotinaTaxaServicos.ExecutarRotina();
 
 #endregion
