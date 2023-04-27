@@ -18,13 +18,15 @@
 //using DesignPatterns.PatternsEstruturais.Proxy;
 #endregion
 
-using DesignPatterns.PatternsComportamentais.ChainOfResponsability;
-using DesignPatterns.PatternsComportamentais.Command;
-using DesignPatterns.PatternsComportamentais.Strategy;
+//using DesignPatterns.PatternsComportamentais.ChainOfResponsability;
+//using DesignPatterns.PatternsComportamentais.Command;
+//using DesignPatterns.PatternsComportamentais.Strategy;
 //using DesignPatterns.PatternsComportamentais.Interpreter.Jumanji;
 //using DesignPatterns.PatternsComportamentais.Observer;
 //using DesignPatterns.PatternsComportamentais.TemplateMethod;
 //using DesignPatterns.PatternsComportamentais.Visitor;
+
+using DesignPatterns.PatternsComportamentais.Iterator;
 
 Console.WriteLine("\n Design Patterns \n");
 
@@ -102,7 +104,10 @@ Console.WriteLine("\n Design Patterns \n");
 //RotinaTaxaServicos rotinaTaxaServicos = new RotinaTaxaServicos();
 //rotinaTaxaServicos.ExecutarRotina();
 
-Sender sender = new Sender();
-sender.RealizarCheckout();
+//Sender sender = new Sender();
+//sender.RealizarCheckout();
+
+Client client = new Client();
+client.ConsumirEstruturaDados();
 
 #endregion
