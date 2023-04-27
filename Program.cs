@@ -6,7 +6,7 @@
 //using DesignPatterns.PatternsCriacionais.Singleton;
 #endregion
 
-#region Estruturais
+#region UsingEstruturais
 //using DesignPatterns.PatternsEstruturais.Adapter;
 //using DesignPatterns.PatternsEstruturais.Bridge;
 //using DesignPatterns.PatternsEstruturais.Bridge.Abstracao;
@@ -18,17 +18,19 @@
 //using DesignPatterns.PatternsEstruturais.Proxy;
 #endregion
 
+#region UsingComportamentais
 //using DesignPatterns.PatternsComportamentais.ChainOfResponsability;
 //using DesignPatterns.PatternsComportamentais.Command;
-//using DesignPatterns.PatternsComportamentais.Strategy;
 //using DesignPatterns.PatternsComportamentais.Interpreter.Jumanji;
-//using DesignPatterns.PatternsComportamentais.Observer;
-//using DesignPatterns.PatternsComportamentais.TemplateMethod;
-//using DesignPatterns.PatternsComportamentais.Visitor;
 //using DesignPatterns.PatternsComportamentais.Iterator;
 //using DesignPatterns.PatternsComportamentais.Mediator;
 //using DesignPatterns.PatternsComportamentais.Memento;
+//using DesignPatterns.PatternsComportamentais.Observer;
 using DesignPatterns.PatternsComportamentais.State;
+//using DesignPatterns.PatternsComportamentais.Strategy;
+//using DesignPatterns.PatternsComportamentais.TemplateMethod;
+//using DesignPatterns.PatternsComportamentais.Visitor;
+#endregion
 
 Console.WriteLine("\n Design Patterns \n");
 
